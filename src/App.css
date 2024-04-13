@@ -23,3 +23,23 @@ body,
 .task > ::-webkit-scrollbar-thumb {
   @apply bg-sky-500 rounded-xl;
 }
+
+.add-task-button-wrapper {
+  text-align: center;
+  background-color: rgb(22 28 34 / var(--tw-bg-opacity));
+}
+
+.add-task-button{
+  padding: 2px 0px 2px 0px;
+}
+
+.header{
+  align-items: center;
+  text-align: center;
+  font-size: x-large;
+  padding: 20px;
+}
+
+.min-h-screen{
+  min-height: auto;
+}
